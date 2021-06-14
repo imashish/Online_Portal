@@ -1,0 +1,51 @@
+POST http://localhost:3001/api/user/create
+Content-Type: application/json
+
+{
+    "name": "Aashish",
+    "username": "asg@bigbang.com",
+    "password": "Special@123"
+}
+
+# POST http://localhost:3001/api/user/login
+# Content-Type: application/json
+
+# {
+#     "username": "asg@bigbang.com",
+#     "password": "special123"
+# }
+
+# POST http://localhost:3001/api/item/create
+# Content-Type: application/json
+
+# {
+#     "name": "Item 7"
+# }
+
+# POST http://localhost:3001/api/cart/add
+# Content-Type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYzVkNjMxNGFmNjNjNjE3OTBkODhkZiIsImlhdCI6MTYyMzU4OTUwNSwiZXhwIjoxNjIzNjMyNzA1fQ.9JzUsReDaqSSeEpEvqDUTVFq_sE0Gua6mLSW17nf4zA
+
+# {
+#     "item_id": "60c5eaa6ba4a574bc3516fdc"
+# }
+
+# POST http://localhost:3001/api/cart/60c60b09ceb4ae74898d271b/complete
+# Content-Type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYzc4MTYzYTZkOTgzNGEyZjQzMmUyOSIsImlhdCI6MTYyMzY5MDIyNSwiZXhwIjoxNjIzNzMzNDI1fQ.xLKE1U0We62acLrkLBymKC0PJ5MtaAvEIuDIm3oeHzo
+
+
+# GET http://localhost:3001/api/cart/cartItems
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYzVkNjMxNGFmNjNjNjE3OTBkODhkZiIsImlhdCI6MTYyMzU4OTUwNSwiZXhwIjoxNjIzNjMyNzA1fQ.9JzUsReDaqSSeEpEvqDUTVFq_sE0Gua6mLSW17nf4zA
+
+# GET http://localhost:3001/api/order/orderHistory
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYzVkNjMxNGFmNjNjNjE3OTBkODhkZiIsImlhdCI6MTYyMzU4OTUwNSwiZXhwIjoxNjIzNjMyNzA1fQ.9JzUsReDaqSSeEpEvqDUTVFq_sE0Gua6mLSW17nf4zA
+
+
+# GET http://localhost:3001/api/user/list
+
+# GET http://localhost:3001/api/item/list
+
+# GET http://localhost:3001/api/cart/list
+
+# GET http://localhost:3001/api/order/list

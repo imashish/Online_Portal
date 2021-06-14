@@ -1,0 +1,9 @@
+{
+	"config": {
+		"port": 3001,
+		"mongodb": {
+			"connectionUri": "mongodb+srv://ag:mern@cluster0.ekbrd.mongodb.net/Online_Shop?retryWrites=true&w=majority"
+		},
+		"ACCESS_TOKEN_SECRET": "atozportal"
+	}
+}

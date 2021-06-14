@@ -1,0 +1,13 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+**/.idea
+**/.gradle
+**/build
+**/out
+**/dist/*
+**/*.iml
+**/.DS_Store
+**/node_modules
+**/*.ipr
+**/*.iws
+**/target
