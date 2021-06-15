@@ -1,1 +1,1 @@
-web: node backend/index.js
+web: NODE_ENV=prod node backend/index.js
